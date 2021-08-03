@@ -2,21 +2,22 @@
 #include <conio.h>
 #include <typeinfo>
 #include <iostream>
-int main() {
-   float num1;
-   float num2;
-   char op;
-   float result;
+int main()
+{
+    float num1;
+    float num2;
+    char op;
+    float result;
 
-   printf("Enter the first number: ");
-   scanf("%f",&num1);
-//    std::cout << typeid(num1).name();
-   
-   std::cout << "Enter the operation you want to preform (+, -, *, /, %): ";
-   scanf(" %c",&op);
+    printf("Enter the first number: ");
+    scanf("%f", &num1);
+    //    std::cout << typeid(num1).name();
 
-   printf("Enter the second number: ");
-   scanf("%f",&num2);
+    std::cout << "Enter the operation you want to preform (+, -, *, /, %): ";
+    scanf(" %c", &op);
+
+    printf("Enter the second number: ");
+    scanf("%f", &num2);
 
     switch (op)
     {
